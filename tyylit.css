@@ -260,7 +260,7 @@ button{
   padding: 10px 15px;
   border-radius: 6px;
   display: inline-block;
-
+/*responsiivisuutta mobiilille*/
 }
 @media (max-width: 600px) {
   h1 { font-size: 28px; }
@@ -270,5 +270,18 @@ button{
   .main-title { flex-direction: column; padding: 10px; }
   label span { font-size: 20px; }
   .Liity_jäseneksi-main { padding: 10px; }
+  .footer-osiot {
+    flex-direction: column; /* sarakkeet päällekkäin */
+    align-items: center;    /* keskitetään sisältö */
+    gap: 10px;              /* pienempi väli */
+  }
+  .footer-vasen,
+  .footer-keski,
+  .footer-oikea {
+    text-align: center;     /* kaikki keskelle */
+    flex: none;             
+    width: 100%;            /* täyttää ruudun */
+  }
 }
+
 
