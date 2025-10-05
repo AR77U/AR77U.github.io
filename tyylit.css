@@ -263,9 +263,12 @@ button{
 
 }
 @media (max-width: 600px) {
-  label {
-    margin-left: 10px;
-    margin-right: 10px;
-    max-width: calc(100% - 20px); /* ei ylitä ruutua */
-  }
+  h1 { font-size: 28px; }
+  h2 { font-size: 22px; }
+  h3 { font-size: 18px; }
+  li a { font-size: 20px; margin-right: 10px; }
+  .main-title { flex-direction: column; padding: 10px; }
+  label span { font-size: 20px; }
+  .Liity_jäseneksi-main { padding: 10px; }
 }
+
