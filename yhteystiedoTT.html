@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fi"> 
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width content, initial scale= 1.0">
+        <title>Hartu</title>
+        <link rel="stylesheet" href="tyylit.css">
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="navdiv">
+            <div class= "logo"><a href="#">Hartu</a> </div>
+            <ul> <!--(Arttu Paavolainen) tässä ul tekee unordered listin mihin listasin navigointibarin sisällön(<a> luo hypetekstilinkin)-->
+                <li><a href ="EtusivuU.html"> Etusivu</a></li>
+                    <li><a href ="Liity_jäseneksi.html"> Liity jäseneksi</a></li>
+                     <li><a href ="yhteystiedoTT.html" class="active">Yhteystiedot </a></li>
+            </ul> <!--Rautalankamallista poiketen navigointibarissa myös etusivu painike-->
+            </div>
+        </nav>
+
+        <main class="Yhteystiedot-main">
+            <div class="yhteystiedot-content">
+  <h1 class="yhteystiedot-title">Yhteystiedot</h1>
+  <p class="yhteystiedot-intro">
+    Ota yhteyttä täyttämällä alla oleva lomake tai soittamalla meille.
+  </p>
+
+  <form class="yhteystiedot-form">
+    <label for="nimi" class="yhteystiedot-label">Nimi:</label>
+    <input type="text" id="nimi" name="nimi" required placeholder="Esim. Joel Honkanen" class="yhteystiedot-input">
+
+    <label for="sähköposti" class="yhteystiedot-label">Sähköposti:</label>
+    <input type="email" id="sähköposti" name="sähköposti" required placeholder="esimerkki@email.com" class="yhteystiedot-input">
+
+    <label for="viesti" class="yhteystiedot-label">Viesti:</label>
+    <textarea id="viesti" name="viesti" rows="4" placeholder="Kirjoita viestisi tähän..." class="yhteystiedot-textarea"></textarea>
+
+    <button type="submit" class="yhteystiedot-button">Lähetä</button>
+  </form>
+
+  <p class="yhteystiedot-info">
+    <strong>Puhelinnumero:</strong> +358 044 888 9999<br>
+    <strong>Olemme tavoitettavissa klo :</strong> 9.00 – 17.00<br>
+    <strong>Arkisin:</strong> Maanantai – Perjantai
+  </p>
+</div>
+        </main>
+
+        <footer>
+            <div class="footer-osiot">
+            <hr>
+            <div class="footer-vasen">
+            
+            <h3>Hartuhyvinvointi OY<br></h3>
+            <p>Hartulla olemme mukana arjessasi, stressi on jokapäiväinen ongelma johon pyrimme vaikuttamaan.
+            Hallitse aikatauluasi paremmin meidän avulla, palvelumme tekee arjestasi johdonmukaista, virkeäö ja rauhallisempaa.
+            Lue lisää palveluista sivustoltamme. </p>
+            </div>
+            <!--Footerin vasen sarake missä pieni teksi yrityksestä-->
+            
+            <div class="footer-keski">
+                <h3>Linkit</h3>
+                <p><a href ="EtusivuU.html"> Etusivu<br></a>
+                    <a href ="Liity_jäseneksi.html"> Liity jäseneksi<br></a>
+                     <a href ="yhteystiedoTT.html">Yhteystiedot<br> </a>
+                </p>
+
+            </div>
+            <!--Footerin keskimmäinen sarake-->
+            <div class="footer-oikea">
+                <h3>Ota yhteyttä</h3>
+                <p> <a href="mailto:HartuAspa@gmail.com">Hartu asiakaspalvelu sähköposti<br></a>
+                 Puh: +358 044 888 9999</p>
+            </div>
+            </div>
+            <!--Footerin oikea sarake-->
+            <div class="footer-ala">
+            &copy;2025<br> 
+            Tekijänoikeudet pidätetään<br>
+            <!--Alhalla oleva kohta tekijäinoikeus ilmoitukselle-->
+        </div>
+        </footer>
+    </body>
+</html>

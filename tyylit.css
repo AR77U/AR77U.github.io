@@ -1,0 +1,263 @@
+/* Yleinen fontti */
+body {
+  font-family: Calibri, Arial, sans-serif;
+  margin: 0;
+  
+}
+
+/* Navigaatiopalkki */
+.navbar {
+  background: #0CDFBF;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.navdiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo a {
+  font-size: 36px;
+  font-weight: 800;
+  color: #2E2D2D;
+  text-decoration: none;
+}
+.logo a:hover{
+   color: #0d6154;
+}
+li {
+  list-style: none;
+  display: inline-block;
+}
+li a {
+  color: #2E2D2D;
+  font-size: 26px;
+  font-weight: bold;
+  margin-right: 20px;
+  text-decoration: none;
+}
+li a:hover{
+  color: #0d6154;
+}
+li a.active{
+  color: rgb(52, 122, 131);
+}
+/* Footer */
+footer {
+  background-color: #0CDFBF;
+  padding: 20px;
+}
+.footer-osiot {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+}
+.footer-vasen {
+  flex: 1;
+  text-align: left;
+}
+.footer-vasen p {
+  text-align: left;
+}
+.footer-keski {
+  flex: 1;
+  text-align: center;
+}
+.footer-oikea {
+  flex: 1;
+  text-align: right;
+}
+.footer-ala {
+  margin-top: 20px;
+  border-top: 1px solid #000;
+  text-align: center;
+  padding-top: 10px;
+}
+footer a {
+  text-decoration: none;
+}
+h1 {
+  font-size: 36px;
+}
+h2 {
+font-size: 28px;
+padding-left: 20px;
+}
+h3{
+  margin-left: 20px;
+}
+p {
+  font-size: 18px;
+  padding-left: 20px;
+}
+.Liity_jäseneksi-main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  text-align: center;
+}
+.main-title{
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+.KalenteriKuva{
+  display: block;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  opacity: 80%;
+}
+
+label{
+  display: block;
+  padding: 20px;
+  padding-right: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.15);
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-weight: 500;
+  max-width: 500px;
+  margin-left: 20px;
+}
+label span{
+  flex: 1;
+  margin-left: 20px;
+  font-size: 28px;
+  font-weight: 500;
+
+}
+label span small{
+  font-size: 18px;
+   
+}
+input{
+  margin-left: 20px;
+}
+button{
+  margin-left: 20px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+/*yhteystiedot sivun css*/
+
+
+ .Yhteystiedot-main{
+  background: url('yhteistiedot-verkkosivun kuva.png') no-repeat center center fixed;
+  background-size: cover;
+  position: relative;
+  color: white;
+}
+
+.yhteystiedot-content {
+  position: relative;
+  z-index: 1;
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px 30px;
+  background: transparent;
+  text-align: center;
+}
+
+.yhteystiedot-title {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.yhteystiedot-intro {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.yhteystiedot-form {
+  margin-top: 20px;
+}
+
+.yhteystiedot-label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+  color: #2E2D2D;
+  text-align: left;
+}
+
+.yhteystiedot-input,
+.yhteystiedot-textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 4px;
+  border: none;
+  font-size: 1em;
+  box-sizing: border-box;
+  background-color: white;
+  color: black;
+}
+
+.yhteystiedot-button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px;
+  background-color: #007BFF;
+  border: none;
+  color: white;
+  font-size: 1em;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.yhteystiedot-button:hover {
+  background-color: #0056b3;
+}
+
+.yhteystiedot-info {
+  margin-top: 30px;
+  font-size: 0.9em;
+}
+
+
+
+/*etusivun css*/
+
+.etusivu-main {
+  background-image: url('nettisivukuva 3.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #2E2D2D;
+  min-height: 100vh; /* täyttää koko ruudun */
+  text-align: center;
+  padding: 20px;
+}
+
+.etusivu-logo {
+  width: 100px;
+  display: block;
+  margin: 20px auto 10px auto;
+}
+
+.etusivu-otsikko {
+  margin-bottom: 0;
+}
+
+.etusivu-teksti {
+  margin-bottom: 15px;
+}
+
+.etusivu-väliotsikko {
+  margin-top: 20px;
+}
+.etusivu-teksti {
+  background: rgba(255, 255, 255, 0.6); /* valkea läpinäkyvä tausta */
+  padding: 10px 15px;
+  border-radius: 6px;
+  display: inline-block;
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fi"> 
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width content, initial scale= 1.0">
+        <title>Hartu</title>
+        <link rel="stylesheet" href="tyylit.css">
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="navdiv">
+            <div class= "logo"><a href="#">Hartu</a> </div>
+            <ul> <!--(Arttu Paavolainen) tässä ul tekee unordered listin mihin listasin navigointibarin sisällön(<a> luo hypetekstilinkin)-->
+                <li><a href ="EtusivuU.html"> Etusivu</a></li>
+                    <li><a href ="Liity_jäseneksi.html" class="active"> Liity jäseneksi</a></li>
+                     <li><a href ="yhteystiedoTT.html">Yhteystiedot </a></li>
+            </ul> <!--Rautalankamallista poiketen navigointibarissa myös etusivu painike-->
+            </div>
+        </nav>
+
+        <main class="Liity_jäseneksi-main">
+            <div class="container">
+            <h1 class="main-title">Liity jäseneksi päästäksesi käyttämään kaikkia ominaisuuksia</h1>
+            <p> Kalenterit ovat yleensä liian vanhanaikaisia. Ne ehkä muistuttaa milloin tapahtuu mitä, mutta eivät auta aikatauluttamaan. </p>
+            <p> Siksi teimme Hartun, tehdään kalenterista oikeasti hyödyllinen! </p>
+            <hr>
+            <h2> Sovelluksen toiminta</h2>
+            <p>1. vaihe: </p>
+            <p>Syötä aikataulusi kalenterille</p>
+            <p>2. vaihe: </p>
+            <p>Kalenteri aikatauluttaa ja arvio paljonko taukoja tarvitset </p>
+            <p>3. vaihe: </p>
+            <p>Kalenteri muistuttaa sinua tauoista, arvioi sykkeen ja verenpaineen perusteella hyvät ajankohdat meditaatio harjoituksille</p>
+            <p>4. vaihe </p>
+            <p>Stressivapaampi arki ja enemmän energiaa! </p>
+            <hr>
+            <img src="Kalenteri.jpg" alt="Kalenteri" class="KalenteriKuva">
+           
+        </div>
+        <div>
+            <h2>Valitse tilaus</h2>
+            <form>
+                <label for="halvempi">
+            <input type="radio" name="tilaukset" id="halvempi">
+              <span>5€<small>/kk</small></span> Hartu+
+        </label>
+        <label for="paid"> 
+            <input type="radio" name="tilaukset" id="paid">
+            <span>10€<small>/kk</small></span> Hartu++
+            </label>
+       </form>
+        </div>
+        <p> Hartu+ tilauksella saat käyttöösi kaikki aikaisemmin mainitut ominaisuudet</p>
+        <p class="ominaisuudet">
+            - Hartu Kalenteri<br>
+            - Hyvinvointia edistävät harjoitukset<br>
+            - Mobiilisovellus ja Tietokoneohjelma<br>
+            - Analytiikkaa stressitasojesi muutoksista<br>
+
+        </p>
+        <p> Hartu++: (aiemmat sisältyvät hintaan) <br>
+       - Henkilökohtainen chatti ja tapaamiset asiantuntijoidemme kanssa<br>
+       - 24/7 palveleva Ai assistentti, joka parantaa muokkaa aikataulutusta jaksavuutesi perusteella
+        </p>
+        <h3>Rekisteröidy ja tilaa</h3>
+        <p> Nimi</p>
+        <input type="text" placeholder="Nimesi">
+        <p>Sähköposti</p>
+        <input type="email" placeholder="Sähköpostisi"><br>
+        <button type="submit"> Lähetä ja tilaa </button>
+        </main>
+
+        <footer>
+            <div class="footer-osiot">
+            <hr>
+            <div class="footer-vasen">
+            
+            <h3>Hartuhyvinvointi OY<br></h3>
+            <p>Hartulla olemme mukana arjessasi, stressi on jokapäiväinen ongelma johon pyrimme vaikuttamaan.
+            Hallitse aikatauluasi paremmin meidän avulla, palvelumme tekee arjestasi johdonmukaista, virkeäö ja rauhallisempaa.
+            Lue lisää palveluista sivustoltamme. </p>
+            </div>
+            <!--Footerin vasen sarake missä pieni teksi yrityksestä-->
+            
+            <div class="footer-keski">
+                <h3>Linkit</h3>
+                <p><a href ="EtusivuU.html"> Etusivu<br></a>
+                    <a href ="Liity_jäseneksi.html"> Liity jäseneksi<br></a>
+                     <a href ="yhteystiedoTT.html">Yhteystiedot<br> </a>
+                </p>
+
+            </div>
+            <!--Footerin keskimmäinen sarake-->
+            <div class="footer-oikea">
+                <h3>Ota yhteyttä</h3>
+                <p> <a href="mailto:HartuAspa@gmail.com">Hartu asiakaspalvelu sähköposti<br></a>
+                 Puh: +358 044 888 9999</p>
+            </div>
+            </div>
+            <!--Footerin oikea sarake-->
+            <div class="footer-ala">
+            &copy;2025<br> 
+            Tekijänoikeudet pidätetään<br>
+            <!--Alhalla oleva kohta tekijäinoikeus ilmoitukselle-->
+        </div>
+        </footer>
+    </body>
+</html>
