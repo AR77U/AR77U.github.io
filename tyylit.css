@@ -260,4 +260,12 @@ button{
   padding: 10px 15px;
   border-radius: 6px;
   display: inline-block;
+
+}
+@media (max-width: 600px) {
+  label {
+    margin-left: 10px;
+    margin-right: 10px;
+    max-width: calc(100% - 20px); /* ei ylitä ruutua */
+  }
 }
